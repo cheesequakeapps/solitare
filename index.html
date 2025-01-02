@@ -6,8 +6,8 @@
     <title>Unity Web Player | Solitaire</title>
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
-    <canvas id="unity-canvas" width=380 height=680 tabindex="-1" style="width: 380px; height: 680px; background: #808080"></canvas>
-    <script src="Build/test10.loader.js"></script>
+    <canvas id="unity-canvas" width=380 height=680 tabindex="-1" style="width: 380px; height: 680px; background: url('Build/test11.jpg') center / cover"></canvas>
+    <script src="Build/test11.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -26,9 +26,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/test10.data",
-        frameworkUrl: "Build/test10.framework.js",
-        codeUrl: "Build/test10.wasm",
+        dataUrl: "Build/test11.data",
+        frameworkUrl: "Build/test11.framework.js",
+        codeUrl: "Build/test11.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CheeseQuake",
         productName: "Solitaire",
